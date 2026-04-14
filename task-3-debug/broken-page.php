@@ -125,7 +125,7 @@ $testimonials = [
 
     <!-- Hero Section -->
     <section class="hero">
-        <h1><?php echo $practice_info['name']; ?></h1>
+        <h1><?php echo htmlspecialchars($practice_info['name']); ?></h1>
         <p><?php echo htmlspecialchars($practice_info['tagline']); ?></p>
     </section>
 
@@ -150,7 +150,7 @@ $testimonials = [
             <?php foreach ($testimonials as $testimonial) { ?>
                 <div class="testimonial-card">
                     <div class="stars">
-                        <?php for ($i = 0; $i <= $testimonial['rating']; $i++) { ?>
+                        <?php for ($i = 0; $i < $testimonial['rating']; $i++) { ?>
                             ★
                         <?php } ?>
                     </div>
@@ -169,4 +169,4 @@ $testimonials = [
     </footer>
 
 </body>
-</htm>
+</html>
