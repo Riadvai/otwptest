@@ -135,6 +135,7 @@ $doctors = [
         IMPORTANT: Escape ALL dynamic output!
     -->
 
+<<<<<<< HEAD
     <?php foreach ($doctors as $doctor) { ?>
 
 <div class="doctor-card">
@@ -165,6 +166,8 @@ $doctors = [
 </div>
 
 <?php } ?>
+=======
+>>>>>>> 7829a730c2dcd67a24e25325509e74acb6e32035
 
 
     <!-- END YOUR PHP LOOP HERE -->

@@ -52,9 +52,15 @@ ul, ol {
 
     /* Colors — inspect the Figma color palette to get exact hex values */
     /* TODO: Fill in the exact colors from the Figma file */
+<<<<<<< HEAD
     --color-primary: #00BC4D;      /* Main brand color (inspect from Figma) */
     --color-secondary: #EC9F05;    /* Secondary color (inspect from Figma) */
     --color-accent: #2CD080;       /* Accent/highlight color (inspect from Figma) */
+=======
+    --color-primary: #______;      /* Main brand color (inspect from Figma) */
+    --color-secondary: #______;    /* Secondary color (inspect from Figma) */
+    --color-accent: #______;       /* Accent/highlight color (inspect from Figma) */
+>>>>>>> 7829a730c2dcd67a24e25325509e74acb6e32035
     --color-text: #______;         /* Main text color (inspect from Figma) */
     --color-text-light: #______;   /* Light/muted text (inspect from Figma) */
     --color-white: #FFFFFF;
@@ -142,6 +148,7 @@ ul, ol {
 
 /* START YOUR CSS HERE */
 
+<<<<<<< HEAD
 /* RESET */
 * {
   margin: 0;
@@ -806,5 +813,8 @@ body {
   }
 
 }
+=======
+
+>>>>>>> 7829a730c2dcd67a24e25325509e74acb6e32035
 
 /* END YOUR CSS HERE */
