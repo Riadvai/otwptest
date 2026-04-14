@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smile Dental Clinic — WaaTech Assessment</title>
+
+    <!-- Google Fonts (FREE) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&family=Lato:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <!-- Your CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!--
+        TASK 1: Build the 3 sections from the Figma design below.
+        Look at the Figma file for the design.
+        Look at reference/FIGMA-LINK.md for how to access and inspect the design.
+
+        The 3 sections you need to build:
+        1. Hero Section ("Simple & Affordable")
+        2. Our Practice Section
+        3. Doctor Section
+
+        Requirements:
+        - Must be responsive: Desktop (1440px), Tablet (768px), Mobile (320px)
+        - Use the CSS variables defined in style.css
+        - Use placeholder images from https://placehold.co/ or export from Figma
+        - Implement button hover states (shown in Figma)
+        - No CSS frameworks allowed (no Bootstrap, no Tailwind)
+    -->
+
+    <!-- START YOUR CODE HERE -->
+
+<section class="hero">
+
+  <!-- BACKGROUND -->
+  <div class="hero-bg">
+    <img src="images/hero-bg.svg" alt="">
+  </div>
+
+  <div class="container hero-wrapper">
+
+    <!-- LEFT -->
+    <div class="hero-content">
+      <p class="hero-sub">CARE THAT FITS YOUR FAMILY</p>
+
+      <h1>
+        Welcome To Park Pediatric Dentistry In Lafayette, LA
+      </h1>
+
+      <p class="hero-desc">
+        We believe every child deserves expert dental care that feels comfortable, supportive, and within reach.
+      </p>
+
+      <a href="#" class="btn">
+        Learn More
+        <span><img src="images/arrow.png"></span>
+      </a>
+    </div>
+
+    <!-- RIGHT -->
+    <div class="hero-image">
+      <img src="images/hero.png" alt="">
+    </div>
+  </div>
+
+</section>
+
+<section class="steps">
+  <div class="container steps-wrapper">
+
+    <!-- CARD 1 -->
+    <div class="step-card">
+      <img src="images/card-1.png" class="card-bg">
+
+      <div class="card-hover-img">
+        <img src="images/img-1.png">
+      </div>
+    </div>
+
+    <!-- CARD 2 -->
+    <div class="step-card">
+      <img src="images/card-2.png" class="card-bg">
+
+      <div class="card-hover-img">
+        <img src="images/img-2.png">
+      </div>
+    </div>
+
+    <!-- CARD 3 -->
+    <div class="step-card">
+      <img src="images/card-3.png" class="card-bg">
+
+      <div class="card-hover-img">
+        <img src="images/img-3.png">
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- family section  -->
+<section class="family">
+
+  <!-- TOP WAVE -->
+  <div class="wave-top">
+    <img src="images/wave-top.png">
+  </div>
+
+  <!-- MAIN CONTENT -->
+  <div class="family-content">
+    <div class="container">
+
+      <p class="section-sub">A PLACE MADE FOR KIDS</p>
+      <h2>Where Families Feel At Home</h2>
+
+      <!-- SLIDER -->
+      <div class="slider">
+        <div class="slide-track">
+
+          <img src="images/s1.jpg">
+          <img src="images/s2.jpg">
+          <img src="images/s3.jpg">
+          <img src="images/s4.jpg">
+
+          <!-- duplicate for smooth loop -->
+          <img src="images/s1.jpg">
+          <img src="images/s2.jpg">
+          <img src="images/s3.jpg">
+          <img src="images/s4.jpg">
+
+        </div>
+      </div>
+      <!-- CONTENT BLOCK -->
+        <div class="family-info">
+
+              <!-- LEFT -->
+           <div class="info-text">
+             <p>
+              With board-certified pediatric expertise, a warm and welcoming team, and a space designed for comfort, we make every visit feel positive and stress-free. From first check-ups to advanced treatments, we provide continuity of care in an environment where children feel safe, parents feel confident, and families know they are receiving compassionate, specialized care that grows with every stage of childhood.
+             </p>
+
+             <a href="#" class="btn-green">
+              Discover Us
+             <span><img src="images/arrow.png"></span>
+             </a>
+           </div>
+
+  <!-- RIGHT -->
+  <div class="info-image">
+    <img src="images/girl.png" alt="">
+  </div>
+
+</div>
+    
+    </div>
+  </div>
+  
+
+  <!-- BOTTOM WAVE -->
+  <div class="wave-bottom">
+    <img src="images/wave-top.png">
+  
+  </div>
+
+</section>
+
+<section class="doctor">
+
+  <!-- <div class="wave-top">
+    <img src="images/wave-bottom.png">
+  
+  </div> -->
+
+  <!-- BACKGROUND SHAPE -->
+  <div class="doctor-bg">
+    <img src="images/doctor-bg.png" alt="">
+  </div>
+
+  <div class="container">
+
+    <!-- HEADER -->
+    <div class="doctor-header">
+      <p class="section-sub">COMPASSION IN EVERY VISIT</p>
+      <h2>Dedicated To Growing Smiles</h2>
+      <p class="section-desc">
+        Our passion at Park Pediatric Dentistry is creating positive dental experiences that build trust, support healthy habits, and inspire confidence in every child we care for.
+      </p>
+    </div>
+
+    <!-- MAIN -->
+    <div class="doctor-content">
+
+      <!-- LEFT IMAGE -->
+      <div class="doctor-image">
+        <img src="images/doctor.png" alt="">
+
+        <!-- GREEN BADGE -->
+        <div class="badge">
+          <h3></h3>
+          <p>
+            
+          </p>
+        </div>
+      </div>
+
+      <!-- RIGHT TEXT -->
+      <div class="doctor-text">
+        <h3>Dr. Noto</h3>
+
+        <p>
+          Born and raised in Lafayette, Dr. Hannah Noto combines hometown heart with board-certified pediatric expertise. After earning her degree in Biology at UL Lafayette, she completed dental school at LSU in New Orleans and advanced training at UT Health Houston.
+        </p>
+
+        <a href="#" class="btn-outline">
+          MEET DR. NOTO
+          <span>→</span>
+        </a>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+    <!-- END YOUR CODE HERE -->
+
+</body>
+</html>
